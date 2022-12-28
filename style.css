@@ -1,8 +1,8 @@
 body {
 	background-color: hsl(185, 75%, 39%);
 	background-image: url(images/bg-pattern-top.svg) , url(images/bg-pattern-bottom.svg)  ;
-	background-repeat: no-repeat;
-	background-position: right 20vw bottom 40vh , left 20vw top 50vh;
+	background-repeat: no-repeat no-repeat;
+	background-position: right 51vw bottom 20vh , left 45vw top 50vh;
 	font-family: 'Kumbh Sans', sans-serif;
 	font-size: 18px;
 
@@ -102,13 +102,13 @@ body {
 
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
 
-	/*.container {
+	.container {
 	width: 350px;
-	margin: 19vw auto;
+	margin-top: 20%;
 	
-	}*/
+	}
 
 
 }
