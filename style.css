@@ -1,0 +1,117 @@
+body {
+	background-color: hsl(185, 75%, 39%);
+	background-image: url(images/bg-pattern-top.svg) , url(images/bg-pattern-bottom.svg)  ;
+	background-repeat: no-repeat;
+	background-position: right 20vw bottom 40vh , left 20vw top 50vh;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+
+}
+
+.container {
+
+	background-color: white;
+	margin-top: 50% ;
+	width: 325px;
+	height: 373px;
+	border-radius: 5%;
+	overflow: hidden;
+
+
+
+
+}
+
+.div-avatar-img {
+	position: relative;
+
+}
+
+.avatar-img {
+	position: absolute;
+	top: -50px;
+	left: 35%;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+
+.div-description {
+	margin-top: 80px;
+	display: grid;
+	grid-auto-rows: 2fr 2fr;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+
+}
+
+.name {
+	align-self: end;
+	justify-self: end;
+	grid-column: 1/3;
+	color: hsl(229, 23%, 23%);
+}
+
+.age {
+	
+	align-self: end;
+	color: hsl(0, 0%, 59%);
+}
+
+.city {
+	grid-column: 1/4;
+	justify-self: center;
+	color: hsl(0, 0%, 59%);
+	font-size: 15px;
+
+}
+
+.div-statistics {
+	border-top: .5px solid hsl(0, 0%, 59%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	padding: 10px;
+
+}
+
+.div-followers, .div-likes, .div-photos {
+	text-align: center;
+	padding: 10px;
+}
+
+.number {
+	color: hsl(229, 23%, 23%);
+}
+
+.followers, .likes, .photos {
+	font-size: 10px;
+	color: hsl(0, 0%, 59%);
+	letter-spacing: 2px;
+
+}
+
+
+
+
+@media screen and (min-width: 375px) {
+
+	/*.container {
+	width: 350px;
+	margin: 19vw auto;
+	
+	}*/
+
+
+}
+
+
+
